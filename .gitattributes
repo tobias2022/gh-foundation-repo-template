@@ -1,6 +1,10 @@
 # Normalize text files and keep line endings consistent across platforms
 * text=auto eol=lf
 
+# Windows command scripts require CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
 # Treat common binary assets as binary so Git does not try to diff them as text
 *.png binary
 *.jpg binary
