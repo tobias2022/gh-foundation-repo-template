@@ -1,0 +1,21 @@
+# CODEOWNERS
+#
+# Update all placeholders when creating a new repository from this template.
+# Owners can be individual users (@username) or GitHub teams (@org/team-name).
+
+# Default owner for the entire repository
+* @your-org/platform-team
+
+# Application code
+/src/ @your-org/app-team
+
+# CI/CD workflows and automation
+/.github/workflows/ @your-org/devops-team
+
+# Infrastructure as code
+/infrastructure/ @your-org/infrastructure-team
+/modules/ @your-org/infrastructure-team
+
+# Security-related docs and configuration
+SECURITY.md @your-org/security-team
+/.github/dependabot.yml @your-org/security-team
