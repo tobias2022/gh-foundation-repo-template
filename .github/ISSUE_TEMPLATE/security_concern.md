@@ -12,6 +12,13 @@ Use this template only to request secure triage routing.
 ## Summary
 Provide a high-level description of the concern.
 
+## Concern Type
+- [ ] Potential secret exposure
+- [ ] Vulnerability report
+- [ ] Insecure configuration
+- [ ] Dependency or supply-chain concern
+- [ ] Other
+
 ## Affected Area
 - File/path/component:
 - Environment:
@@ -19,9 +26,16 @@ Provide a high-level description of the concern.
 ## Potential Impact
 Describe suspected impact in high-level terms.
 
+## Discovery Context
+- How was this identified:
+- Is exploitation confirmed: Yes/No/Unknown
+
 ## Contact and Routing
 - Reporter contact:
 - Preferred secure channel:
 
 ## Next Step
 A repository maintainer should move this report to the private vulnerability reporting channel defined in SECURITY.md.
+
+## Checklist
+- [ ] I did not include secrets, exploit steps, or proof-of-concept code in this public issue.
