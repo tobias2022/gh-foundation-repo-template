@@ -2,6 +2,8 @@
 #
 # Update all placeholders when creating a new repository from this template.
 # Owners can be individual users (@username) or GitHub teams (@org/team-name).
+# Placeholder entries are not valid for production use and should be replaced
+# before the first pull request is merged.
 
 # Default owner for the entire repository
 * @your-org/platform-team
@@ -19,3 +21,4 @@
 # Security-related docs and configuration
 SECURITY.md @your-org/security-team
 /.github/dependabot.yml @your-org/security-team
+/.github/codeql.yml @your-org/security-team
