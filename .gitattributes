@@ -1,0 +1,12 @@
+# Normalize text files and keep line endings consistent across platforms
+* text=auto eol=lf
+
+# Treat common binary assets as binary so Git does not try to diff them as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.zip binary
